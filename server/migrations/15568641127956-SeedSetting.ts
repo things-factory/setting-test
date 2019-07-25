@@ -1,6 +1,6 @@
 import { MigrationInterface, QueryRunner, getRepository } from 'typeorm'
 import { Domain } from '@things-factory/shell'
-import { Setting } from '@things-factory/setting-base/server'
+import { Setting } from '@things-factory/setting-base'
 import { SETTINGS as SEED_SETTINGS } from '../seed-data/settings'
 
 export class SeedSetting1556864112795 implements MigrationInterface {
